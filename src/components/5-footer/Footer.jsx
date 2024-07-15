@@ -9,7 +9,13 @@ function Footer() {
         <li><a href="">Contact</a></li>
       </ul>
 
-      <p>(c) 2004, George Youssef. All rights reserved.</p>
+      <div className='all-icons flex'>
+          <div className="icon icon-facebook2"></div>
+          <div className="icon icon-linkedin2"></div>
+          <div className="icon icon-github"></div>
+        </div>
+
+        <p>&copy; {new Date().getFullYear()} George Youssef. All rights reserved.</p>
         
       
     </footer>

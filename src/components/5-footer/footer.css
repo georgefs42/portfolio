@@ -1,5 +1,3 @@
-
-
 footer.flex{
     justify-content: space-between;
     padding-bottom: 1rem;
@@ -22,11 +20,24 @@ footer.flex ul a:hover{
     font-weight: 500;
 }
 
+footer.flex .all-icons{
+    font-size: 1.3rem;
+    gap:1.5rem;
+    color: var(--subtitle);   
+}
+
+footer.flex .all-icons .icon:hover{
+    font-size: 1.4rem;
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--icon-hover);
+}
+
 footer.flex p{
     color: rgb(113 113 122);
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     footer.flex{
         flex-direction: column;
         gap: 2rem;
