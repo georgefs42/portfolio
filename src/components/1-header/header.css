@@ -68,6 +68,11 @@ header .icon-cancel:hover{
     rotate: 180deg;
 }
 
+header .icon-menu .menuText{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
 /* Model*/
 header .fixed{
     position: fixed;

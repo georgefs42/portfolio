@@ -8,7 +8,10 @@ function header() {
       <header className='border flex'>
         <button onClick={()=>{
           setshowModel(true)
-        }} className='menu icon-menu flex'> </button>
+        }} className='menu icon-menu flex'> 
+        <p className='menuText'>Menu</p>
+        </button>
+        
         <div/>
         <nav>
           <ul className='flex'>
