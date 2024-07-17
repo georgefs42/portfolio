@@ -62,3 +62,12 @@ section.hero .all-icons .icon:hover{
 }
 
 /*Right section Animation*/
+.animation{
+    width: 50%;
+    translate: 100px 20px;
+}
+
+
+@media (max-width: 1250px){
+    section.hero .dev-animation{display: none;}
+}

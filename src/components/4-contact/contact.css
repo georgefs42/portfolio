@@ -77,6 +77,10 @@ section.contact-me .submit:hover{
     scale: 0.97;    
 }
 
+@media (max-width: 1250px){
+    section.contact-me .email-animation{display: none;}
+}
+
 @media (max-width: 600px){
 
     section.contact-me .animation{display: none}

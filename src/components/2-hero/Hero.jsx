@@ -1,4 +1,6 @@
 import './hero.css'
+import Lottie from 'lottie-react'
+import devAnimation from '../../animation/dev.json'
 
 function hero() {
   return (
@@ -22,7 +24,10 @@ function hero() {
           <div className="icon icon-github"></div>
         </div>
       </div>
-      <div className='right-section animation border'>animation
+      <div className='right-section animation border'>
+        <Lottie 
+        className='dev-animation'
+          animationData={devAnimation} />
 
       </div>
     </section>
