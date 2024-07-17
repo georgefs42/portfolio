@@ -34,7 +34,7 @@ function App() {
       <Footer />
 
       
-        <a style={{opacity: showScrollBtn? 1 : 0, transition: '2.5s'}} href="#up">
+        <a style={{opacity: showScrollBtn? 1 : 0, transition: '1s'}} href="#up">
           <button className='icon-circle-up scrollToTop'></button>
         </a>
       
