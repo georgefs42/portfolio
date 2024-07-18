@@ -129,11 +129,17 @@ header .fixed ul.model li a{
 }
 
 
-@media (max-width: 700px){
-    header.flex nav {display: none;}
-
-    header button.menu{
-        display: block;
+@media (max-width: 700px) {
+    header.flex nav {
+      display: none;
     }
-
-}
+  
+    header button.menu {
+      display: block;
+    }
+  
+    #google_translate_element {
+      display: none;
+    }
+  }
+  

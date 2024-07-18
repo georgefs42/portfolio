@@ -1,6 +1,7 @@
 import './hero.css'
 import Lottie from 'lottie-react'
 import devAnimation from '../../animation/dev.json'
+import { motion } from "framer-motion"
 
 function hero() {
   return (
@@ -13,7 +14,15 @@ function hero() {
         </div>
 
         <h1 className='name'>GEORGE YOUSSEF</h1>
-        <h1 className='title'>FULL-STACK DEVELOPER ENGINEER</h1>
+        <motion.h1
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.2 }}
+
+          className='title'>
+          FULL-STACK DEVELOPER ENGINEER
+        </motion.h1>
+
         <p className='subtitle'>
           I'm a computer engineer since 2000, and Fullstack Developer since 2024, based in Stockholm.
         </p>
@@ -25,8 +34,8 @@ function hero() {
         </div>
       </div>
       <div className='right-section animation border'>
-        <Lottie 
-        className='dev-animation'
+        <Lottie
+          className='dev-animation'
           animationData={devAnimation} />
 
       </div>

@@ -27,7 +27,7 @@ section.hero .avatar{
 }
 
 section.hero h1.title{
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     line-height: 3.3rem;
     margin: 24px 0;
     color: var(--title);
@@ -70,4 +70,15 @@ section.hero .all-icons .icon:hover{
 
 @media (max-width: 1250px){
     section.hero .dev-animation{display: none;}
-}
+    }
+
+@media (max-width: 750px) {
+    section.hero h1.title {
+      font-size: 1.7rem;
+    }
+  
+    section.hero h1.name {
+      font-size: 2rem;
+    }
+  }
+  
