@@ -64,7 +64,7 @@ export const myProjects = [
     category: ['_html_', '_css_', '_js_' ],
     description: 'A simple car store app created with HTML, CSS, and JavaScript. It features an intuitive interface for browsing car models, viewing details, and managing inventory.',
     imgPath: "../../../public/images/html_carStore.png",
-    linkUrl: 'https://georgefs42.github.io/Webbutik_Project/index.html/',
+    linkUrl: 'https://georgefs42.github.io/Webbutik_Project/index.html',
     githubUrl: 'https://github.com/georgefs42/Webbutik_Project'
   },
 
