@@ -6,7 +6,12 @@ const About = () => {
     return (
         <div id='about'>
             <div className="aboutSection">
+                <h3 style={{ textAlign: 'center', fontFamily: '"Edu Australia VIC WA NT Hand", cursive' }}>
+                    <strong><em>"Study to make yourself loved" - Don Bosco</em></strong>
+                </h3>
+
                 <div className="aboutContent">
+
                     <div className="textContent">
                         <h1>About Me</h1>
                         <p>
@@ -22,16 +27,16 @@ const About = () => {
 
             <div className="aboutSection">
                 <h1>Skills</h1>
-                <p style={{fontWeight: 'bold'}} >
-                        Full stack developer (Backend and Frontend), Java Developer, Web DeveloperJava, Python, C#, IntelliJ,
-                        Visual Studio Code, NoSQL, SQL, DBeaver, JSON, MongoDB, HTML5 & CSS3,
-                        JavaScript and Web communication, Node.js, React, TypeScript, Framework in JavaScript,
-                        Java Enterprise and Eclipse, Agile Project Methodology, IT and information security,
-                        Cloud services, Test-driven development, Web services in Java, Umbraco and more ...                    
+                <p style={{ fontWeight: 'bold' }} >
+                    Full stack developer (Backend and Frontend), Java Developer, Web DeveloperJava, Python, C#, IntelliJ,
+                    Visual Studio Code, NoSQL, SQL, DBeaver, JSON, MongoDB, HTML5 & CSS3,
+                    JavaScript and Web communication, Node.js, React, TypeScript, Framework in JavaScript,
+                    Java Enterprise and Eclipse, Agile Project Methodology, IT and information security,
+                    Cloud services, Test-driven development, Web services in Java, Umbraco and more ...
                 </p>
             </div>
-            
-            <div className='divider' style={{width: '99%', marginLeft: '8px'}} />
+
+            <div className='divider' style={{ width: '99%', marginLeft: '8px' }} />
 
             <div className="aboutSection">
                 <h3>Languages</h3>

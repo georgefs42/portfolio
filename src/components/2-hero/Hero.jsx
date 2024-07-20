@@ -35,7 +35,7 @@ function hero() {
           <a href="https://www.linkedin.com/in/george-youssef-46a511261/" target="_blank">
             <div className="icon icon-linkedin2"></div>
           </a>
-          <a href="https://github.com/georgefs42/" target="_blank">
+          <a href="https://github.com/georgefs42?tab=repositories" target="_blank">
             <div className="icon icon-github"></div>
           </a>
         </div>
