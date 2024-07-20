@@ -12,7 +12,8 @@ header.flex nav {
 }
 
 header ul.flex{
-    gap: 16px;
+    gap: 33px;
+    width:300px;
 }
 
 header ul li a{
@@ -25,7 +26,7 @@ header ul li a{
 header ul li a:hover{
     color: var(--blue);
     opacity: 1;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 header button{

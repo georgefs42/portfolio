@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import Header from './components/1-header/Header';
 import Hero from './components/2-hero/Hero';
-import Main from './components/3-main/Main';
-import About from './components/4-about/About';
+import Main from './components/4-main/Main';
+import About from './components/3-about/About';
 import Contact from './components/5-contact/Contact';
 import Footer from './components/6-footer/Footer';
 
@@ -10,7 +10,7 @@ import Footer from './components/6-footer/Footer';
 function App() {
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 100) {
         setShowSvrollBtn(true)
       } else {
         setShowSvrollBtn(false)
@@ -23,14 +23,15 @@ function App() {
   return (
     <div id='up' className='container'>
       <Header />
+      <div className='divider' />
 
       <Hero />
       <div className='divider' />
 
-      <Main />
+      <About />
       <div className='divider' />
 
-      <About />
+      <Main />
       <div className='divider' />
 
       <Contact />
@@ -38,11 +39,9 @@ function App() {
 
       <Footer />
 
-      
-        <a style={{opacity: showScrollBtn? 1 : 0, transition: '1s'}} href="#up">
-          <button className='icon-circle-up scrollToTop'></button>
-        </a>
-      
+      <a style={{ opacity: showScrollBtn ? 1 : 0, transition: '1s' }} href="#up">
+        <button className='icon-circle-up scrollToTop'></button>
+      </a>
 
     </div>
   );

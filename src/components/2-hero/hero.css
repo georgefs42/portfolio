@@ -1,12 +1,15 @@
 section.hero{
     margin-top: 3rem;
+    margin-bottom: -40px;
 }
 
 /*Left section*/
 
 section.hero .parent-avatar.flex{
+    margin-top: -20px;
     align-items: end;
     gap: 0.6rem;
+    min-height: 200px;
 }
 section.hero .left-section{
     flex-grow: 1;
@@ -47,18 +50,24 @@ section.hero p.subtitle{
     margin-bottom: 32px;
 }
 
-section.hero .all-icons{
-    font-size: 1.3rem;
+section.hero .all-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem; 
+}
+section.hero .all-icons .icon{    
+    font-size: 1.5rem;
     gap:1.5rem;
-    color: var(--subtitle);
-   
+    color: var(--subtitle);    
+    cursor: pointer;
 }
 
 section.hero .all-icons .icon:hover{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     transition: 0.3s;
     cursor: pointer;
     color: var(--icon-hover);
+    
 }
 
 /*Right section Animation*/
@@ -72,7 +81,7 @@ section.hero .all-icons .icon:hover{
     section.hero .dev-animation{display: none;}
     }
 
-@media (max-width: 750px) {
+@media (max-width: 1090px) {
     section.hero h1.title {
       font-size: 1.7rem;
     }
@@ -81,4 +90,17 @@ section.hero .all-icons .icon:hover{
       font-size: 2rem;
     }
   }
+
+  @media (max-width: 415px) {
+    section.hero h1.title {
+      font-size: 1rem;
+    }
   
+    section.hero h1.name {
+      font-size: 1.7rem;
+    }
+
+    section.hero .all-icons {
+        margin-left: 80%;
+    }
+  }

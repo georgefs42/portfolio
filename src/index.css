@@ -36,7 +36,7 @@ html{
 }
 
 .light{
-  --primary: #fff;
+  --primary: rgb(253 253 253);
   --secondary: rgb(255 255 255);
   --border: rgba(202, 202, 202, 0.518);
 
@@ -175,4 +175,3 @@ html{scrollbar-color: #555 }
     font-size: 1rem;
   }
 }
-

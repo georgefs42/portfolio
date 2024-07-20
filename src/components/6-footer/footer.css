@@ -3,40 +3,37 @@ footer.flex {
   justify-content: space-between;
   padding-bottom: 1rem;
   margin-bottom: 1.9rem;
+  color: var(--subtitle);
 }
 
-footer.flex ul {
+footer.flex ul, footer.flex .all-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1.3rem;
   list-style: none;
   padding: 0;
+  color: var(--subtitle);
 }
 
-footer.flex ul a {
+footer.flex ul a, footer.flex a, footer.flex p {
   color: var(--subtitle);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 400;
   text-decoration: none;
   transition: color 0.3s, font-size 0.3s, font-weight 0.3s;
 }
 
-footer.flex ul a:hover {
+footer.flex ul a:hover, footer.flex a:hover {
   color: var(--blue);
   font-size: 1rem;
   font-weight: 500;
 }
 
-footer.flex .all-icons {
-  display: flex;
-  font-size: 1.3rem;
-  gap: 1.5rem;
-  color: var(--subtitle);
-}
 
 footer.flex .all-icons .icon {
   font-size: 1.3rem;
   transition: font-size 0.3s, color 0.3s;
   cursor: pointer;
+  color: var(--subtitle);
 }
 
 footer.flex .all-icons .icon:hover {
@@ -48,19 +45,17 @@ footer.flex p {
   color: rgb(113, 113, 122);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1150px) {
   footer.flex {
     flex-direction: column;
     gap: 2rem;
   }
 
   footer.flex ul {
-    flex-direction: column;
     gap: 1rem;
   }
 
   footer.flex .all-icons {
-    flex-direction: column;
     gap: 1rem;
   }
 }

@@ -1,15 +1,6 @@
-import { useState, useEffect } from 'react';
 import './footer.css';
 
 function Footer() {
-  const [visitorCount, setVisitorCount] = useState(0);
-
-  // Mock visitor count increment on component mount
-  useEffect(() => {
-    // You can implement actual logic here to fetch visitor count from a backend
-    // For demonstration, we simulate an increment every time component mounts
-    setVisitorCount(prevCount => prevCount + 1);
-  }, []);
 
   return (
     <footer className='flex'>
@@ -21,16 +12,21 @@ function Footer() {
       </ul>
 
       <div className='all-icons flex'>
-        <div className="icon icon-facebook2"></div>
-        <div className="icon icon-linkedin2"></div>
-        <div className="icon icon-github"></div>
-      </div>
+          <a href="https://www.facebook.com/georgesdb/" target="_blank">
+            <div className="icon icon-facebook2"></div>
+          </a>
 
-      <p>&copy; {new Date().getFullYear()} George Youssef. All rights reserved.</p>
+          <a href="https://www.linkedin.com/in/george-youssef-46a511261/" target="_blank">
+            <div className="icon icon-linkedin2"></div>
+          </a>
+          <a href="https://github.com/georgefs42/" target="_blank">
+            <div className="icon icon-github"></div>
+          </a>
+        </div>
 
-      <div className="visitor-counter">
-        <p>Visitors of this page: {visitorCount}</p>
-      </div>
+        <p>&copy; {new Date().getFullYear()} <a href="#about">George Youssef</a>. All rights reserved.</p>
+
+
     </footer>
   )
 }

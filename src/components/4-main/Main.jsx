@@ -34,45 +34,45 @@ function Main() {
 
         <button
           onClick={() => {
-            handleClick('react');
+            handleClick('_react_');
           }}
-          className={currentActive === 'react' ? 'active' : null}
+          className={currentActive === '_react_' ? 'active' : null}
         >
           React Tsx & Jsx
         </button>
 
         <button
           onClick={() => {
-            handleClick('css');
+            handleClick('_html_');
           }}
-          className={currentActive === 'css' ? 'active' : null}
+          className={currentActive === '_html_' ? 'active' : null}
         >
           HTML & CSS
         </button>
 
         <button
           onClick={() => {
-            handleClick('js');
+            handleClick('_js_');
           }}
-          className={currentActive === 'js' ? 'active' : null}
+          className={currentActive === '_js_' ? 'active' : null}
         >
           JavaScript
         </button>
 
         <button
           onClick={() => {
-            handleClick('lang');
+            handleClick('_lang_');
           }}
-          className={currentActive === 'lang' ? 'active' : null}
+          className={currentActive === '_lang_' ? 'active' : null}
         >
           Languages
         </button>
 
         <button
           onClick={() => {
-            handleClick('othr');
+            handleClick('_othr_');
           }}
-          className={currentActive === 'othr' ? 'active' : null}
+          className={currentActive === '_othr_' ? 'active' : null}
         >
           Other
         </button>
@@ -87,17 +87,14 @@ function Main() {
               <div style={{ width: "266px" }} className="box">
                 <h1 className='title'>{item.projectTitle}</h1>
                 <p className='subtitle'>{item.category}</p>
+                <p className='description>'>{item.description}</p>
 
                 <div className="flex icons">
-                  <div style={{ gap: "11px" }} className='flex'>
-                    <div className="icon-link"></div>
-                    <div className="icon-github"></div>
+                  <div style={{ gap: '30px'}} className='flex'>
+                    <a href={item.linkUrl} className="icon-link" target="_blank"></a>
+                    <a href={item.githubUrl} className="icon-github" target="_blank"></a>
                   </div>
 
-                  <a className='link flex' href="">
-                    more
-                    <span style={{ alignSelf: "end" }} className='icon-arrow-right2'></span>
-                  </a>
                 </div>
               </div>
             </article>

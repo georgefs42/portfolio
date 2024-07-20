@@ -19,7 +19,7 @@ function Header() {
   }, [theme]);
 
   return (
-    <header className='border flex'>
+    <header className='flex'>
       <button
         onClick={() => setShowModel(true)}
         className='menu icon-menu flex'
@@ -30,10 +30,10 @@ function Header() {
       <div />
       <nav>
         <ul className='flex'>
-          <li><a href="">About</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">CV</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -60,10 +60,10 @@ function Header() {
             onClick={() => setShowModel(false)}
           />
         </li>
-        <li><a href="">About</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">CV</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   )

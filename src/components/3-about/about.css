@@ -1,0 +1,72 @@
+#about {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(73, 73, 75, 0.105);
+    border-radius: 8px;
+    text-align: justify;
+    border: 1px solid var(--blue);
+}
+.light #about {
+    border-color: var(--border);
+    background-color: var(--secondary);
+}
+
+.aboutSection {
+    margin-bottom: 30px;
+    color: var(--subtitle);   
+}
+
+.aboutContent {
+    display: flex;
+    align-items: flex-start; /* Aligns items at the top */
+    justify-content: space-between; /* Distributes space between text and image */
+}
+
+.aboutImage {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 75px;
+    
+}
+
+.textContent {
+    max-width: 600px; /* Optional: Limit the text width for better readability */
+}
+
+.aboutSection h1 { 
+    font-size: 2.7em;    
+    margin-bottom: 10px;
+    color: var(--title);
+}
+
+.aboutSection h3 { 
+    font-size: 1.8em;   
+    margin-bottom: 10px;
+    color: var(--title);
+}
+
+.aboutSection p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+@media (max-width: 700px){
+    .aboutSection h1{
+        font-size: 1.5rem;
+    }
+
+    .aboutSection h3{
+        font-size: 1.2rem;
+    }
+
+    .aboutSection p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1320px){
+    .aboutImage {
+        display: none;
+    }
+}   
