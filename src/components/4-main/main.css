@@ -66,6 +66,7 @@ main section.right-section.flex {
 .light .card,
 .light .card:hover {
     border: none;
+
 }
 
 .card:hover {
@@ -100,6 +101,9 @@ main section.right-section.flex {
     margin-right: 5px;
     text-align: justify;
 }
+
+.light .card p{
+    color: var(--subtitle);}
 
 .card .box .icons {
     

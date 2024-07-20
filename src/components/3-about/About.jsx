@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div id='about'>
             <div className="aboutSection">
-                <h3 style={{ textAlign: 'center', fontFamily: '"Edu Australia VIC WA NT Hand", cursive' }}>
+                <h3 style={{ textAlign: 'center', fontFamily: '"Edu Australia VIC WA NT Hand", cursive', color: 'var(--title)' }}>
                     <strong><em>"Study to make yourself loved" - Don Bosco</em></strong>
                 </h3>
 

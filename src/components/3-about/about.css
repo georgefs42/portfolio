@@ -5,8 +5,9 @@
     background-color:rgb(73, 73, 75, 0.105);
     border-radius: 8px;
     text-align: justify;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blue);    
 }
+
 .light #about {
     border-color: var(--border);
     background-color: var(--secondary);
