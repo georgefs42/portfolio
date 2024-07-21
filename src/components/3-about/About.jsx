@@ -21,7 +21,7 @@ const About = () => {
                             and now web development.
                         </p>
                     </div>
-                    <img src="../../../public/images/g_2.jpg" alt="George Youssef" className="aboutImage" />
+                    <img src="/images/g_2.jpg" alt="George Youssef" className="aboutImage" />
                 </div>
             </div>
 
