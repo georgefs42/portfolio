@@ -4,7 +4,7 @@ export const myProjects = [
     category: ['_react_', '_html_', '_css_', '_js_' ],
     description: 'My portfolio was crafted with React JSX. It showcases a variety of projects and skills, demonstrating my ability to build interactive and dynamic web applications.',
     imgPath: "../../../public/images/react_portfolio.png",
-    linkUrl: '/',
+    linkUrl: 'http://georgedev.se',
     githubUrl: 'https://github.com/georgefs42/portfolio' 
   },
 

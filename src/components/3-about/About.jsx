@@ -68,7 +68,7 @@ const About = () => {
             <div className="aboutSection">
                 <h3>Focus on Web Development</h3>
                 <p>
-                    In 2022, I decided to refocus my career and returned to my passion for IT by studying programming and web development.
+                    In 2023, I decided to refocus my career and returned to my passion for IT by studying programming and web development.
                     I studied in Stockholm Technical Institute (STI) as a Full-Stack Developer, where I immersed myself in modern web technologies and practices.
                 </p>
             </div>

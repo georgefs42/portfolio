@@ -8,6 +8,8 @@ import Footer from './components/6-footer/Footer';
 
 
 function App() {
+
+  /*Scroll logic */
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 100) {

@@ -32,7 +32,7 @@ function Header() {
         <ul className='flex'>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#cv">CV</a></li>
+          <li><a href="../../../public/documents/george_youssef_STHLM_CV.pdf" download>CV</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -62,7 +62,7 @@ function Header() {
         </li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#cv">CV</a></li>
+        <li><a href="../../../public/documents/george_youssef_STHLM_CV.pdf" download>CV</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>

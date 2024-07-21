@@ -90,7 +90,7 @@ function Main() {
                 <p className='description>'>{item.description}</p>
 
                 <div className="flex icons">
-                  <div style={{ gap: '30px'}} className='flex'>
+                  <div style={{ gap: '30px' }} className='flex'>
                     <a href={item.linkUrl} className="icon-link" target="_blank"></a>
                     <a href={item.githubUrl} className="icon-github" target="_blank"></a>
                   </div>

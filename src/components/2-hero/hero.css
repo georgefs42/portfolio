@@ -4,7 +4,6 @@ section.hero{
 }
 
 /*Left section*/
-
 section.hero .parent-avatar.flex{
     margin-top: -20px;
     align-items: end;

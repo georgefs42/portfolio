@@ -3,7 +3,7 @@ import Lottie from 'lottie-react'
 import devAnimation from '../../animation/dev.json'
 import { motion } from "framer-motion"
 
-function hero() {
+function Hero() {
   return (
     <section className='hero flex'>
       <div className='left-section '>
@@ -51,4 +51,4 @@ function hero() {
   )
 }
 
-export default hero
+export default Hero

@@ -20,19 +20,19 @@
 
 .aboutContent {
     display: flex;
-    align-items: flex-start; /* Aligns items at the top */
-    justify-content: space-between; /* Distributes space between text and image */
+    align-items: flex-start; 
+    justify-content: space-between; 
 }
 
 .aboutImage {
-    width: 200px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px; 
+    height: auto; 
     border-radius: 75px;
     
 }
 
 .textContent {
-    max-width: 600px; /* Optional: Limit the text width for better readability */
+    max-width: 600px; 
 }
 
 .aboutSection h1 { 
@@ -70,4 +70,4 @@
     .aboutImage {
         display: none;
     }
-}   
+} 
